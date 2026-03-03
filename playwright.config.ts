@@ -8,7 +8,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
   use: {
-    baseURL: 'https://magic-sys.vercel.app',
+    baseURL: 'example.com',
     trace: 'on-first-retry',
     permissions: ['geolocation', 'notifications', 'camera', 'microphone', 'clipboard-read', 'clipboard-write'],
     acceptDownloads: true,
